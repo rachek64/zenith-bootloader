@@ -1,0 +1,9 @@
+// Remote component mapping file.
+// If this file exists, any import calls for mapped remote components will resolve to the remote address.
+// If no component imports a remote component, it will never be downloaded or executed.
+// This one is just an example and doesn't really exist.
+{
+    map: {
+        'rachekzone/server-status': 'http://www.rachekzone.com/api/server-status.js'   
+    }
+}
