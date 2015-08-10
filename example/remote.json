@@ -3,7 +3,9 @@
 // If no component imports a remote component, it will never be downloaded or executed.
 // This one is just an example and doesn't really exist.
 {
-    map: {
-        'rachekzone/server-status': 'http://www.rachekzone.com/api/server-status.js'   
-    }
+	'map': {
+		'rachekzone/server-status': 'http://www.rachekzone.com/api/server-status.js'
+	},
+	// This defines the local root for zenith to load modules. Relative to the location of bootloader.js.
+	'localRoot': './example'
 }
